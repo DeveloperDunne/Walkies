@@ -3,8 +3,8 @@
 
 /*Asterix tag overides browsers default style settings*/
 * {
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 /*Header Styles*/
@@ -46,31 +46,33 @@ h1 {
 
 /*General body styles*/
 body {
-    min-height:100vh;
+    min-height: 100vh;
     font-family: 'Mooli', 'sans-serif';
     font-size: 0.9rem;
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
     text-decoration: underline;
     padding: 10px;
-    text-align:center;
+    text-align: center;
 }
 
 /*About Us Styles*/
 #about {
-    background-color: rgb(56,56,56);
+    background-color: rgb(56, 56, 56);
     color: white;
     text-align: center;
-    height:900px;
+    height: 900px;
 }
 
 #about p {
-    padding:20px;
+    padding: 20px;
 }
 
 table {
-    padding:50px;
+    padding: 50px;
     justify-content: center;
     text-align: center;
     margin-left: auto;
@@ -79,23 +81,23 @@ table {
 
 th {
     text-decoration: underline;
-    padding:10px;
+    padding: 10px;
     background-color: #003366;
 }
 
 
-th, td {
+th,
+td {
     border: 3px solid white;
-    padding:8px;
+    padding: 8px;
 }
 
 #services {
     background-color: #003366;
     color: white;
     height: 850px;
-    text-align:center;
-    line-height: 20px;;
-    padding:50px;
+    text-align: center;
+    padding: 50px;
 }
 
 .icon {
@@ -118,7 +120,7 @@ th, td {
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-left:10px;
+    margin-left: 10px;
     text-align: left;
 }
 
@@ -126,9 +128,9 @@ th, td {
     color: black;
     width: 50%;
     height: 25px;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
-    margin-bottom:20px;
+    margin-bottom: 20px;
     padding: 0 5px;
     display: flex;
     flex-direction: column;
@@ -141,8 +143,8 @@ th, td {
     text-align: center;
     display: flex;
     justify-content: center;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #join {
@@ -150,7 +152,7 @@ th, td {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:20px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
