@@ -13,7 +13,7 @@ header {
     color: white;
     width: 100%;
     padding: 20px;
-    position: fixed;
+    position: fixed
     z-index: 99;
 }
 
@@ -63,5 +63,8 @@ h2 {
     color: white;
     text-align: center;
     height:700px;
-    margin-top:150px;
+}
+
+#about p {
+    padding:20px;
 }
