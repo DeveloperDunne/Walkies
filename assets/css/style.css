@@ -16,3 +16,24 @@ header {
     position: fixed;
     z-index: 99;
 }
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-family: 'Handlee', 'sans-serif';
+    font-size: 180%;
+    letter-spacing: 4px;
+    text-decoration: underline;
+}
+
+/*Navigation Bar*/
+
+#nav-bar {
+    font-size: 90%;
+    letter-spacing: 3px;
+    list-style-type: none;
+    text-decoration: none;
+}
