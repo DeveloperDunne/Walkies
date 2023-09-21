@@ -87,3 +87,16 @@ th, td {
     border: 3px solid white;
     padding:8px;
 }
+
+#services {
+    background-color: #003366;
+    color: white;
+    height: 700px;
+    text-align:center;
+    line-height: 20px;;
+    padding:50px;
+}
+
+.icon {
+    padding: 50px;
+}
