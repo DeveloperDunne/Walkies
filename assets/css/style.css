@@ -64,7 +64,7 @@ h4 {
 
 /*About Us Styles*/
 #about {
-    background-color:white;
+    background-color:#ffffff;
     color: darkolivegreen;
     text-align: center;
     height: 900px;
@@ -86,7 +86,7 @@ th {
     text-decoration: underline;
     padding: 10px;
     background-color: rgb(5, 33, 7);
-    color:white;
+    color:#ffffff
 }
 
 
@@ -97,7 +97,7 @@ th,td {
 
 #services {
     background-color: rgb(5, 33, 7);
-    color: white;
+    color: #ffffff
     height: 850px;
     text-align: center;
     padding: 50px;
@@ -105,10 +105,11 @@ th,td {
 
 .icon {
     padding: 50px;
+    size: 200px;
 }
 
 #signup {
-    background-color: white;
+    background-color:#ffffff;
     color:darkolivegreen;
     height: 500px;
     width: 100%;
@@ -151,6 +152,8 @@ th,td {
 }
 
 #join {
+    background-color: darkolivegreen;
+    color:#ffffff;
     padding: 5px;
     display: flex;
     justify-content: center;
