@@ -1,0 +1,8 @@
+/*Font Styles*/
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Lato:wght@300&family=Mooli&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+/*Asterix tag overides browsers default style settings*/
+* {
+margin: 0;
+padding: 0;
+}
