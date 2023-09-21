@@ -13,7 +13,7 @@ header {
     color: white;
     width: 100%;
     padding: 20px;
-    position: fixed
+    position: fixed;
     z-index: 99;
 }
 
@@ -51,7 +51,7 @@ body {
     font-size: 0.9rem;
 }
 
-h2 {
+h2, h3, h4 {
     text-decoration: underline;
     padding: 10px;
     text-align:center;
@@ -91,7 +91,7 @@ th, td {
 #services {
     background-color: #003366;
     color: white;
-    height: 800px;
+    height: 850px;
     text-align:center;
     line-height: 20px;;
     padding:50px;
@@ -105,6 +105,9 @@ th, td {
     background-color: rgb(56, 56, 56);
     color: white;
     height: 500px;
+    width: 100%;
+    font-size: 90%;
+        
 }
 
 #formsignup {
@@ -112,12 +115,29 @@ th, td {
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
+    margin-left:10px;
     text-align: left;
+}
+
+.text-input {
+    color: black;
+    width: 50%;
+    height: 25px;
+    margin: 5px 10px 20px 10px;
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
 
 #checkbox {
     padding: 5px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 #join {
@@ -125,6 +145,9 @@ th, td {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top:20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*Footer*/
