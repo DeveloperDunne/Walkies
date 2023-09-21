@@ -9,12 +9,10 @@
 
 /*Header Styles*/
 header {
-    background-color: #003366;
+    background-color: rgb(5, 33, 7);
     color: white;
     width: 100%;
     padding: 20px;
-    position: fixed;
-    z-index: 99;
 }
 
 header a {
@@ -27,6 +25,7 @@ h1 {
     font-size: 180%;
     letter-spacing: 4px;
     text-decoration: underline;
+    padding-bottom:5px;
 }
 
 /*Navigation Bar*/
@@ -38,8 +37,12 @@ h1 {
     text-decoration: none;
 }
 
+main {
+    flex: 1 0 auto;
+}
+
 #main-image {
-    background: url("../images/doggie-walk3.jpeg") no-repeat center center/cover;
+    background: url("../images/dog-stick.webp") no-repeat center center/cover;
     width: 100%;
     height: 850px;
 }
@@ -61,8 +64,8 @@ h4 {
 
 /*About Us Styles*/
 #about {
-    background-color: rgb(56, 56, 56);
-    color: white;
+    background-color:white;
+    color: darkolivegreen;
     text-align: center;
     height: 900px;
 }
@@ -82,18 +85,18 @@ table {
 th {
     text-decoration: underline;
     padding: 10px;
-    background-color: #003366;
+    background-color: rgb(5, 33, 7);
+    color:white;
 }
 
 
-th,
-td {
-    border: 3px solid white;
+th,td {
+    border: 3px solid rgb(5, 33, 7);
     padding: 8px;
 }
 
 #services {
-    background-color: #003366;
+    background-color: rgb(5, 33, 7);
     color: white;
     height: 850px;
     text-align: center;
@@ -105,8 +108,8 @@ td {
 }
 
 #signup {
-    background-color: rgb(56, 56, 56);
-    color: white;
+    background-color: white;
+    color:darkolivegreen;
     height: 500px;
     width: 100%;
     font-size: 90%;
@@ -159,7 +162,7 @@ td {
 
 /*Footer*/
 footer {
-    background-color: #003366;
+    background-color: rgb(5, 33, 7);
     color: white
 }
 
