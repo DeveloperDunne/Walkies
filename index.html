@@ -116,7 +116,7 @@
         </div>
         <div>
             <!--Form-->
-            <form action="formsignup" action="https://formdump.codeinstitute.net" method="POST"></form>
+            <form id="formsignup" action="https://formdump.codeinstitute.net" method="POST"></form>
                         <label for="name">Name:</label>
                         <input type="text" name="name" id="name" class="text-input" required>
                         <br>
@@ -126,11 +126,11 @@
                         <label for="dog-name">Dogs Name:</label>
                         <input type="text" id="dog-name" name="dog-name" class="text-input" required>
                        
-                        <label for="dog-breed">Dog Breed:</label>
+                        <label for="dog-breed">Breed:</label>
                         <input type="text" id="dog-breed" name="dog-breed" class="text-input" required>
                         </div>
                         
-                        <div>
+                        <div id="checkboxes">
                             <h4>Please select service interested in:</h4>
                         
                             <label for="walk">Walk</label>
@@ -145,12 +145,30 @@
                         </div>
 
                         <!--Submit Button-->
-                        <button id="submit" type="submit">Let's Go for a Walkie!</button>
+                        <button id="join" type="submit">Let's Go for a Walkie!</button>
         </div>
     </section>
     </main>
     <!--Footer-->
-    <footer></footer>
+    <footer>
+        <h3 id="contact">Contact Us</h3>
+        
+        <!--Socials-->
+        <div>
+            <ul id="socials">
+                <li>
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener"><i
+                            class="fa-brands fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 <script src="https://kit.fontawesome.com/8ac6e13145.js" crossorigin="anonymous"></script>
 </html>

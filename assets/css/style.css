@@ -62,7 +62,7 @@ h2 {
     background-color: rgb(56,56,56);
     color: white;
     text-align: center;
-    height:850px;
+    height:900px;
 }
 
 #about p {
@@ -91,7 +91,7 @@ th, td {
 #services {
     background-color: #003366;
     color: white;
-    height: 700px;
+    height: 800px;
     text-align:center;
     line-height: 20px;;
     padding:50px;
@@ -99,4 +99,54 @@ th, td {
 
 .icon {
     padding: 50px;
+}
+
+#signup {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    height: 500px;
+}
+
+#formsignup {
+    width: 50%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+#checkbox {
+    padding: 5px;
+    text-align: center;
+}
+
+#join {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Footer*/
+footer {
+    background-color: #003366;
+    color: white
+}
+
+#contact {
+    text-align: center;
+}
+
+/*Social pages*/
+#socials {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    list-style-type: none;
+    padding: 0.5em;
+}
+
+#socials i {
+    color: white;
+    font-size: 120%;
 }
