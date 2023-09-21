@@ -62,9 +62,28 @@ h2 {
     background-color: rgb(56,56,56);
     color: white;
     text-align: center;
-    height:700px;
+    height:850px;
 }
 
 #about p {
     padding:20px;
+}
+
+table {
+    padding:50px;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    text-decoration: underline;
+    padding:10px;
+}
+
+
+th, td {
+    border: 3px solid white;
+    padding:8px;
 }
