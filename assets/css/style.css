@@ -80,6 +80,7 @@ table {
 th {
     text-decoration: underline;
     padding:10px;
+    background-color: #003366;
 }
 
 
@@ -107,7 +108,9 @@ th, td {
     height: 500px;
     width: 100%;
     font-size: 90%;
-        
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
 
 #formsignup {
@@ -123,7 +126,9 @@ th, td {
     color: black;
     width: 50%;
     height: 25px;
-    margin: 5px 10px 20px 10px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom:20px;
     padding: 0 5px;
     display: flex;
     flex-direction: column;
