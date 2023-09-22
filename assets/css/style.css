@@ -10,9 +10,11 @@
 /*Header Styles*/
 header {
     background-color: rgb(5, 33, 7);
+    background: url("../images/dog-stick.webp") no-repeat center center/cover;
     color: white;
     width: 100%;
-    padding: 20px;
+    height:700px;
+
 }
 
 header a {
@@ -26,6 +28,7 @@ h1 {
     letter-spacing: 4px;
     text-decoration: underline;
     padding-bottom:5px;
+    padding-left:20px;
 }
 
 /*Navigation Bar*/
@@ -35,16 +38,11 @@ h1 {
     letter-spacing: 3px;
     list-style-type: none;
     text-decoration: none;
+    padding-left:20px;
 }
 
 main {
     flex: 1 0 auto;
-}
-
-#main-image {
-    background: url("../images/dog-stick.webp") no-repeat center center/cover;
-    width: 100%;
-    height: 850px;
 }
 
 /*General body styles*/
@@ -52,6 +50,7 @@ body {
     min-height: 100vh;
     font-family: 'Mooli', 'sans-serif';
     font-size: 0.9rem;
+    width:100%;
 }
 
 h2,
@@ -67,7 +66,7 @@ h4 {
     background-color:#ffffff;
     color: darkolivegreen;
     text-align: center;
-    height: 900px;
+    height: 1100px;
 }
 
 #about p {
@@ -86,13 +85,22 @@ th {
     text-decoration: underline;
     padding: 10px;
     background-color: rgb(5, 33, 7);
-    color:#ffffff
+    color:#ffffff;
 }
 
 
 th,td {
     border: 3px solid rgb(5, 33, 7);
     padding: 8px;
+}
+
+img {
+    height:75vh;
+    width:75vw;
+    margin-bottom: 50px;;
+    border-radius: 50%;
+    max-width:180px;
+    max-height:180px;
 }
 
 #services {
