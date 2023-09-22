@@ -95,12 +95,11 @@ th,td {
 }
 
 img {
-    height:75vh;
-    width:75vw;
-    margin-bottom: 50px;;
-    border-radius: 50%;
-    max-width:180px;
-    max-height:180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    max-width:250px;
+    max-height:250px;
 }
 
 #services {
