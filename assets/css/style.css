@@ -185,8 +185,14 @@ img {
 
 /*Footer*/
 footer {
+    padding-top:20px;
     background-color: rgb(5, 33, 7);
     color: white
+}
+
+footer p{
+    text-align: center;
+    padding: 20px;
 }
 
 #contact {
@@ -205,6 +211,7 @@ footer {
 #socials i {
     color: white;
     font-size: 120%;
+    padding:15px;
 }
 
 /*Media Queries*/
@@ -234,8 +241,13 @@ footer {
         margin-bottom: 25px;
         max-width: 600px;
         max-height: 600px;
+        display: flex;
     }
 
+    #about {
+        padding-top:30px;
+    }
+   
     .text-input {
         width: 20%;
     }
