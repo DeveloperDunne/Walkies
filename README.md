@@ -5,7 +5,7 @@ Walkies is a dog walking website that also offers other servcies such as a pop i
 
 Walkies is aimed at people with dogs in Gweedore a beautiful Donegal county surrounded by beaches and amazing outdoor walking environments and will be useful for people who are unable to take their pets on daily walks themselves.
 
-![Responsiveness](README-images/responsive.png)
+![Responsiveness](./assets/README-images/responsive.png)
  
 # Features
 
