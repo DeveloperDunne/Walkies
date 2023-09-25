@@ -5,110 +5,122 @@ Walkies is a dog walking website that also offers other servcies such as a pop i
 
 Walkies is aimed at people with dogs in Gweedore a beautiful Donegal county surrounded by beaches and amazing outdoor walking environments and will be useful for people who are unable to take their pets on daily walks themselves.
 
-RESPONSIVE IMAGE.
+![Responsiveness](README-images/responsive.png)
+ 
+# Features
 
-## Features
+### *Navigation*
 
-Navigation:
+- At the top of the page you can see the webistes name 'Walkies' and a navigation bar, this clearly tells the user the name of the website and links to other parts of the page.
 
-At the top of the page you can see the webistes name 'Walkies' and a navigation bar, this clearly tells the user the name of the website and links to other parts of the page.
+- When clicked on the 'About Us', 'Services' and 'Sign Up' links each will take you to these different sections of the page.
 
-When clicked on the 'About Us', 'Services' and 'Sign Up' links each will take you to these different sections of the page.
 
-### The Header:
+### *The Header*
 
-The Header shows a large picture of a dog with the website name and the naviagtion bar which takes you to where you would like to go on the page. It is designed in contrasting colours which will be a feature throughout the page.
+- The Header shows a large picture of a dog with the website name and the naviagtion bar which takes you to where you would like to go on the page. 
+- It is designed in contrasting colours which will be a feature throughout the page.
 
-### About Us:
+![Header](README-images/landing-page.png)
 
-This section gives a brief outline of what the website is about whilst providing some insight into whats available within a table format.
+### *About Us*
 
-### Our Services:
+- This section gives a brief outline of what the website is about whilst providing some insight into whats available within a table format.
 
-This section breaks down what services are available with a more detailed explaination. It continues to be styled with the white and green contrast to make the information stand out.
+![About Us](README-images/about.png)
 
-### Sign Up:
+### *Our Services*
 
-In this section potential customers can sign up for one of the services described and for further details.
+- This section breaks down what services are available with a more detailed explaination. 
+- It continues to be styled with the white and green contrast to make the information stand out.
 
-The form has been designed so that the user cannot submit without providing certin details. It collects the owners data and some of that of the dog.
+![Our Services](README-images/services.png)
 
-The sign up section is valuable as it gives the user the oppotunity to shiw that they are interested in the services.
+### *Sign Up*
 
-### Contact
+- In this section potential customers can sign up for one of the services described and for further details.
 
-At the bottom of the page there is a Contact heading with a telphone number for queries. Here you can also click on the social links below which will take you to the desired social page, opning in a new tab.
+- The form has been designed so that the user cannot submit without providing certin details. It collects the owners data and some of that of the dog.
 
-## Testing
+- The sign up section is valuable as it gives the user the oppotunity to show that they are interested in the services.
 
-I tested this pages and it worked on Chrome and Safari.
+![Sign Up](README-images/signup.png)
 
-I tested that the page looked good, all functions worked and was responsive on all standard screen sizes using the devtools toolbar.
+### *Contact*
 
-I tested that all navigation links took you to the relevant parts of the page and that social links opened in new tabs.
+- At the bottom of the page there is a Contact heading with a telphone number for queries. Here you can also click on the social links below which will take you to the desired social page, opning in a new tab.
 
-I can confirm that the form works and will not allow submission until all relevant information has been submitted.
+# Testing
 
-I also had other people test the site to ensure I had not missed anything.
+- I tested this pages and it worked on Chrome and Safari.
 
-### Bugs
+- I tested that the page looked good, all functions worked and was responsive on all standard screen sizes using the devtools toolbar.
 
-Solved bugs:
+- I tested that all navigation links took you to the relevant parts of the page and that social links opened in new tabs.
 
-Before deploying and upon testing I realised that my checkboxes were not working correctly, this is because I had enabled the 'checked' action and so I fixed this so that you only check the ones you require.
+- I can confirm that the form works and will not allow submission until all relevant information has been submitted.
 
-Removing the 'Checked' action fixed this problem.
+- I also had other people test the site to ensure I had not missed anything.
 
-Unsolved bugs:
+## Bugs
 
-I would have liked to change the checkboxes when ticked from blue to green to make the website color pallete however could not find how to solve this.
+### *Solved bugs*
 
-## Validator Testing
+- Before deploying and upon testing I realised that my checkboxes were not working correctly, this is because I had enabled the 'checked' action and so I fixed this so that you only check the ones you require.
 
-HTML:
+- Removing the 'Checked' action fixed this problem.
 
-No errors were displayed when putting the code through the official W3C Validator.
+### *Unsolved bugs*
 
-PICTURE OF EVIDENCE.
+- I would have liked to change the checkboxes when ticked from blue to green to make the website color pallete however could not find how to solve this.
 
-CSS:
+# Validator Testing
 
-No errors were displayed when putting the code through the official (Jigsaw) Validator.
+### *HTML*
 
-PICTURE OF EVIDENCE.
+- No errors were displayed when putting the code through the official W3C Validator.
 
-Accessibility:
+![HTML Check](README-images/HTML-validator.png)
 
-I ran the website through 'Lighthouse in Devtools.
+### *CSS*
 
- PICTURE OF EVIDENCE.
+- No errors were displayed when putting the code through the official (Jigsaw) Validator.
 
- ## Deployment
+![CSS Check](README-images/CSS-validator.png)
 
- The site was deployed to Github Pages. The steps to deploy are as follows:
-  In the Github repositary, navigate to the settings tab.
+### *Accessibility*
 
-  From the source section drop down menu, select the Master Branch.
+- I ran the website through 'Lighthouse in Devtools.
 
-  Once the Master Branch has been selected, the page provided the link to the website.
+ ![Lighthouse](README-images/lighthouse.png)
 
-  The live link can be found here [Walkies] (https://developerdunne.github.io/Walkies https://developerdunne.github.io/Walkies/).
+ # Deployment
 
-  ## Credits
+- The site was deployed to Github Pages. The steps to deploy are as follows:
+ 
+  - In the Github repositary, navigate to the settings tab.
 
-Content:
+  - From the source section drop down menu, select the Master Branch.
 
-  Some support with code was taken from W3 Schools for the layout of the form.
+  - Once the Master Branch has been selected, the page provided the link to the website.
 
-  Slack community.
+  - The live link can be found here [Walkies] (https://developerdunne.github.io/Walkies https://developerdunne.github.io/Walkies/).
 
-  Media:
+  # Credits
 
-  The image was taken from Pexels.com.
+### *Content*
 
-  The favicon was tsken from Favicon Generator.
+  - Some support with code was taken from W3 Schools for the layout of the form.
 
-  The icons were taken from Font Awesome.
+  - Slack community.
 
-  The fonts were taken from Google Fonts.
+### *Media*
+
+  - The image was taken from Pexels.com
+
+  - The favicon was tsken from Favicon.io
+
+  - The icons were taken from FontAwesome.com
+
+  - The fonts were taken from Fonts.google.com
 
