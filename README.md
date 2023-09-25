@@ -50,6 +50,8 @@ Walkies is aimed at people with dogs in Gweedore a beautiful Donegal county surr
 
 - At the bottom of the page there is a Contact heading with a telphone number for queries. Here you can also click on the social links below which will take you to the desired social page, opning in a new tab.
 
+![Contact](README-images/contact.png)
+
 # Testing
 
 - I tested this pages and it worked on Chrome and Safari.
@@ -107,6 +109,12 @@ Walkies is aimed at people with dogs in Gweedore a beautiful Donegal county surr
   - The live link can be found here [Walkies] (https://developerdunne.github.io/Walkies https://developerdunne.github.io/Walkies/).
 
   # Credits
+
+  ### *Wireframes*
+  - Balsamiq was used to create wireframes and design website before building.
+
+![Desktop design](README-images/wireframes1.png)
+![Phone design](README-images/wireframes2.png)
 
 ### *Content*
 
