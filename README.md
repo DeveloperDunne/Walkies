@@ -82,13 +82,13 @@ Walkies is aimed at people with dogs in Gweedore, a beautiful Donegal county sur
 
 - No errors were displayed when putting the code through the official W3C Validator.
 
-![HTML Check](assets/readme-images/HTML-validator.png)
+![HTML Check](assets/readme-images/html-validator.png)
 
 ### *CSS*
 
 - No errors were displayed when putting the code through the official (Jigsaw) Validator.
 
-![CSS Check](assets/readme-images/CSS-validator.png)
+![CSS Check](assets/readme-images/css-validator.png)
 
 ### *Accessibility*
 
