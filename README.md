@@ -1,9 +1,9 @@
 # Walkies
 Hello and welcome to Walkies! 
 
-Walkies is a dog walking website that also offers other servcies such as a pop in and a wash and dry service. This website hopes to make the customer feel that they know exactly what they are getting by being clear and consise whilst ensuring them that we have the best interests of thier beloved pets at heart.
+Walkies is a dog walking website that also offers other servcies such as a pop in and a wash and dry service. This website hopes to make the user feel that they know exactly what they are getting by being clear and consise whilst ensuring them that we have the best interests of thier beloved pets at heart.
 
-Walkies is aimed at people with dogs in Gweedore a beautiful Donegal county surrounded by beaches and amazing outdoor walking environments and will be useful for people who are unable to take their pets on daily walks themselves.
+Walkies is aimed at people with dogs in Gweedore, a beautiful Donegal county surrounded by beaches and amazing outdoor walking environments and will be useful for people who are unable to take their pets on daily walks themselves.
 
 ![Responsiveness](assets/readme-images/responsive.png)
  
@@ -18,7 +18,7 @@ Walkies is aimed at people with dogs in Gweedore a beautiful Donegal county surr
 
 ### *The Header*
 
-- The Header shows a large picture of a dog with the website name and the naviagtion bar which takes you to where you would like to go on the page. 
+- The Header shows a large picture of a dog with the website name and the navigation bar which takes you to where you would like to go on the page. 
 - It is designed in contrasting colours which will be a feature throughout the page.
 
 ![Header](assets/readme-images/landing-page.png)
@@ -38,11 +38,11 @@ Walkies is aimed at people with dogs in Gweedore a beautiful Donegal county surr
 
 ### *Sign Up*
 
-- In this section potential customers can sign up for one of the services described and for further details.
+- In this section users can sign up for one of the services described and for further details.
 
 - The form has been designed so that the user cannot submit without providing certin details. It collects the owners data and some of that of the dog.
 
-- The sign up section is valuable as it gives the user the oppotunity to show that they are interested in the services.
+- The sign up section is valuable as it gives the user the opportunity to show that they are interested in the services.
 
 ![Sign Up](assets/readme-images/signup.png)
 
@@ -68,9 +68,9 @@ Walkies is aimed at people with dogs in Gweedore a beautiful Donegal county surr
 
 ### *Solved bugs*
 
-- Before deploying and upon testing I realised that my checkboxes were not working correctly, this is because I had enabled the 'checked' action and so I fixed this so that you only check the ones you require.
+- Before deploying and upon testing I realised that my checkboxes were not working correctly, this is because I had enabled the 'required' action on all of them and so I fixed this so that you only check the ones you require.
 
-- Removing the 'Checked' action fixed this problem.
+- Removing the 'required' action fixed this problem.
 
 ### *Unsolved bugs*
 
@@ -120,7 +120,9 @@ Walkies is aimed at people with dogs in Gweedore a beautiful Donegal county surr
 
   - Some support with code was taken from W3 Schools for the layout of the form.
 
-  - Slack community.
+  - Some support with layout was taken from the Love Ruuning Project.
+
+  - Issues with Flexbox properties were solved using CSS-Tricks.
 
 ### *Media*
 
