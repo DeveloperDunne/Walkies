@@ -5,7 +5,7 @@ Walkies is a dog walking website that also offers other servcies such as a pop i
 
 Walkies is aimed at people with dogs in Gweedore a beautiful Donegal county surrounded by beaches and amazing outdoor walking environments and will be useful for people who are unable to take their pets on daily walks themselves.
 
-![Responsiveness](assets/images/responsive.png)
+![Responsiveness](assets/readme-images/responsive.png)
  
 # Features
 
@@ -21,20 +21,20 @@ Walkies is aimed at people with dogs in Gweedore a beautiful Donegal county surr
 - The Header shows a large picture of a dog with the website name and the naviagtion bar which takes you to where you would like to go on the page. 
 - It is designed in contrasting colours which will be a feature throughout the page.
 
-![Header](README-images/landing-page.png)
+![Header](assets/readme-images/landing-page.png)
 
 ### *About Us*
 
 - This section gives a brief outline of what the website is about whilst providing some insight into whats available within a table format.
 
-![About Us](README-images/about.png)
+![About Us](assets/readme-images/about.png)
 
 ### *Our Services*
 
 - This section breaks down what services are available with a more detailed explaination. 
 - It continues to be styled with the white and green contrast to make the information stand out.
 
-![Our Services](README-images/services.png)
+![Our Services](assets/readme-images/services.png)
 
 ### *Sign Up*
 
@@ -44,13 +44,13 @@ Walkies is aimed at people with dogs in Gweedore a beautiful Donegal county surr
 
 - The sign up section is valuable as it gives the user the oppotunity to show that they are interested in the services.
 
-![Sign Up](README-images/signup.png)
+![Sign Up](assets/readme-images/signup.png)
 
 ### *Contact*
 
 - At the bottom of the page there is a Contact heading with a telphone number for queries. Here you can also click on the social links below which will take you to the desired social page, opning in a new tab.
 
-![Contact](README-images/contact.png)
+![Contact](assets/readme-images/contact.png)
 
 # Testing
 
@@ -82,19 +82,19 @@ Walkies is aimed at people with dogs in Gweedore a beautiful Donegal county surr
 
 - No errors were displayed when putting the code through the official W3C Validator.
 
-![HTML Check](README-images/HTML-validator.png)
+![HTML Check](assets/readme-images/HTML-validator.png)
 
 ### *CSS*
 
 - No errors were displayed when putting the code through the official (Jigsaw) Validator.
 
-![CSS Check](README-images/CSS-validator.png)
+![CSS Check](assets/readme-images/CSS-validator.png)
 
 ### *Accessibility*
 
 - I ran the website through 'Lighthouse in Devtools.
 
- ![Lighthouse](README-images/lighthouse.png)
+ ![Lighthouse](assets/readme-images/lighthouse.png)
 
  # Deployment
 
@@ -113,8 +113,8 @@ Walkies is aimed at people with dogs in Gweedore a beautiful Donegal county surr
   ### *Wireframes*
   - Balsamiq was used to create wireframes and design website before building.
 
-![Desktop design](README-images/wireframes1.png)
-![Phone design](README-images/wireframes2.png)
+![Desktop design](assets/readme-images/wireframes1.png)
+![Phone design](assets/readme-images/wireframes2.png)
 
 ### *Content*
 
@@ -124,11 +124,12 @@ Walkies is aimed at people with dogs in Gweedore a beautiful Donegal county surr
 
 ### *Media*
 
-  - The image was taken from Pexels.com
+  - The image was taken from [Pexels](https://www.pexels.com/)
 
-  - The favicon was tsken from Favicon.io
+  - The favicon was tsken from [Favicon.io](https://favicon.io/)
 
-  - The icons were taken from FontAwesome.com
+  - The icons were taken from [FontAwesome.com](https://fontawesome.com/)
 
-  - The fonts were taken from Fonts.google.com
+  - The fonts were taken from [Fonts.google.com](https://fonts.google.com/)
 
+  - The image of what the website looks on different devices was taken from [Am I Responsive?](https://ui.dev/amiresponsive) 
