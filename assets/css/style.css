@@ -74,6 +74,7 @@ h4 {
     color: darkolivegreen;
     text-align: center;
     height: 1100px;
+    border: 20px solid rgb(5, 33, 7);
 }
 
 #about p {
@@ -131,11 +132,11 @@ img {
     background-color: #ffffff;
     color: darkolivegreen;
     height: 500px;
-    width: 100%;
     font-size: 90%;
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    border: 20px solid rgb(5, 33, 7);
 }
 
 /*Form*/
