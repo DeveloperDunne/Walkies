@@ -143,6 +143,37 @@ img {
     padding-top:160px;
 }
 
+.tiles {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+}
+
+.imagetiles {
+    display: flex;
+    flex-wrap:wrap;
+  width: auto;
+  height: auto;
+}
+
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgba(5, 33, 7, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 75%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+    text-align: center;
+}
+
+.tiles:hover .overlay {
+    opacity: 1;
+}
+
 /*Icons from Font-Awesome*/
 .icon {
     padding: 50px;
@@ -157,7 +188,7 @@ img {
     text-align: center;
     justify-content: center;
     border: 30px solid rgb(5, 33, 7);
-    padding-top:140px;
+    padding-top:200px;
 }
 
 /*Form*/
