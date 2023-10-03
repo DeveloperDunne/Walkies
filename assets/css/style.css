@@ -141,7 +141,7 @@ img {
     height: 850px;
     text-align: center;
     padding-top:160px;
-    padding-bottom: 250px;
+    padding-bottom: 350px;
 }
 
 
@@ -175,7 +175,7 @@ img {
     opacity:0;
     color: white;
     font-size: 14px;
-    padding: 5px;
+    padding: 8px;
     text-align: center;
     margin-bottom: 20px;
   }
@@ -199,7 +199,7 @@ img {
     text-align: center;
     justify-content: center;
     border: 30px solid rgb(5, 33, 7);
-    padding-top:200px;
+    padding-top:130px;
 }
 
 /*Form*/
@@ -319,4 +319,16 @@ footer p{
     .text-input {
         width: 20%;
     }
+
+    .servicetiles {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly ;
+    }
+
+    .imagetiles {
+        padding: 20px;
+    }
+
 }
