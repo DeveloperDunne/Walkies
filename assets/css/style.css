@@ -14,6 +14,8 @@ header {
     width: 100%;
     height: 80px;
     position:fixed;
+    z-index: 99;
+    background-color: rgb(5, 33, 7);
 }
 
 header a {
@@ -26,7 +28,6 @@ h1 {
     font-size: 200%;
     letter-spacing: 4px;
     text-decoration: underline;
-    padding-bottom: 5px;
     padding-left: 20px;
     padding-top: 20px;
 }
@@ -39,11 +40,9 @@ h1 {
     list-style-type: none;
     text-decoration: none;
     padding-left: 20px;
-    padding-top: 10px;
     line-height:30px;
+    background-color: rgb(5, 33, 7);
 }
-
-
 
 main {
     flex: 1 0 auto;
@@ -51,7 +50,7 @@ main {
 
 #hero {
     background: url("../images/dog-stick.webp") no-repeat center center/cover;
-    height: 800px;
+    height: 1000px;
     width: 100%;
 }
 
@@ -59,14 +58,17 @@ main {
     font-family: 'Handlee', 'sans-serif';
     color: white;
     text-decoration:none;
-    background-color: rgb(5, 33, 7, 0.5);
-    font-size: 130%;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(5, 33, 7, 0.7);
+    font-size: 150%;
     position: absolute;
     bottom: 30px;
-    width: 80%;
-    min-height: 100px;
-    padding-top: 10px;
-    padding-left: 10px;
+    width: 180px;
+    min-height: 60px;
+    padding:10px;
+    margin-left: 20px;
+
 }
 
 /*General body styles*/
@@ -77,9 +79,6 @@ body {
     width: 100%;
 }
 
-h2 {
-    font-size: 180%;
-}
 
 .subheading {
     text-decoration: underline;
@@ -89,11 +88,12 @@ h2 {
 
 /*About Us Styles*/
 #about {
+    padding-top:140px;
     background-color: #ffffff;
     color: darkolivegreen;
     text-align: center;
-    height: 1100px;
-    border: 20px solid rgb(5, 33, 7);
+    height: 950px;
+    border: 30px solid rgb(5, 33, 7);
 }
 
 #about p {
@@ -139,7 +139,7 @@ img {
     color: #ffffff;
     height: 850px;
     text-align: center;
-    padding: 50px;
+    padding-top:160px;
 }
 
 /*Icons from Font-Awesome*/
@@ -155,7 +155,8 @@ img {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    border: 20px solid rgb(5, 33, 7);
+    border: 30px solid rgb(5, 33, 7);
+    padding-top:140px;
 }
 
 /*Form*/
@@ -238,7 +239,7 @@ footer p{
 @media screen and (min-width: 768px) {
 
     header {
-        height: 80px;
+        height: 100px;
     }
 
     h1 {
@@ -252,7 +253,7 @@ footer p{
         font-size: 15px;
         display: flex;
         justify-content: space-evenly;
-        padding-top: 20px;
+        padding: 15px;
         text-decoration: underline;
     }
 
