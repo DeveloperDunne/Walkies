@@ -33,15 +33,36 @@ h1 {
 /*Navigation Bar*/
 
 #nav-bar {
-    font-size: 90%;
-    letter-spacing: 3px;
+    font-size: 100%;
+    letter-spacing: 4px;
     list-style-type: none;
-    text-decoration: none;
-    padding-left: 20px;
-    line-height:30px;
-    background-color: rgb(5, 33, 7);
 }
 
+#nav-bar > li {
+    margin-bottom: 1em;
+}
+
+nav {
+    position: absolute;
+    background-color:rgb(5, 33, 7);
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
+    top: 100%;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
 main {
     flex: 1 0 auto;
 }
@@ -297,13 +318,30 @@ footer p{
         text-align: center;
     }
 
-
-    #nav-bar {
+    nav {
         font-size: 15px;
         display: flex;
         justify-content: space-evenly;
-        padding: 15px;
+        padding: 20px;
         text-decoration: none;
+        text-align: center;
+        background-color: rgb(5, 33, 7);
+    }
+
+    #nav-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #nav-bar > li {
+        padding-left: 1rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .nav-toggle-label {
+        display: none;
     }
 
     img {
