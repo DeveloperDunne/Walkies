@@ -9,7 +9,6 @@
 
 /*Header Styles*/
 header {
-    text-decoration: underline;
     color: white;
     width: 100%;
     height: 80px;
@@ -25,7 +24,6 @@ header a {
 
 h1 {
     font-family: 'Handlee', 'sans-serif';
-    font-size: 200%;
     letter-spacing: 4px;
     text-decoration: underline;
     padding-left: 20px;
@@ -80,11 +78,16 @@ body {
     width: 100%;
 }
 
+h2{
+    font-family: 'Handlee', 'sans-serif';
+    text-decoration: underline;
+}
+
 
 .subheading {
-    text-decoration: underline;
     padding: 20px;
     text-align: center;
+
 }
 
 /*About Us Styles*/
@@ -142,6 +145,7 @@ img {
     text-align: center;
     padding-top:160px;
     padding-bottom: 350px;
+
 }
 
 
@@ -290,7 +294,7 @@ footer p{
 
     h1 {
         font-size: 50px;
-        text-decoration: none;
+        text-decoration: underline;
         text-align: center;
     }
 
@@ -300,7 +304,7 @@ footer p{
         display: flex;
         justify-content: space-evenly;
         padding: 15px;
-        text-decoration: underline;
+        text-decoration: none;
     }
 
     img {
@@ -313,11 +317,16 @@ footer p{
     }
 
     #about {
-        padding-top:30px;
+        padding-top:100px;
     }
    
     .text-input {
         width: 20%;
+    }
+
+    #services {
+        padding-top: 60px;
+        padding-bottom: 1px
     }
 
     .servicetiles {
@@ -327,8 +336,9 @@ footer p{
         justify-content: space-evenly ;
     }
 
-    .imagetiles {
-        padding: 20px;
-    }
 
+#services-header {
+
+    padding:100px;
+}
 }
