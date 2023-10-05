@@ -17,9 +17,9 @@ Walkies is aimed at people with dogs in Gweedore, a beautiful Donegal county sur
  
 # Technologies
 
-1 HTML - To create basic website.
-2 CSS - To style page and give a nice user experience.
-3 Balsamiq - To create wireframe.
+- HTML - To create basic website.
+- CSS - To style page and give a nice user experience.
+- Balsamiq - To create wireframe.
 
 
 # Features
