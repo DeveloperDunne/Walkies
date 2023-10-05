@@ -12,12 +12,14 @@ Walkies is aimed at people with dogs in Gweedore, a beautiful Donegal county sur
   ## *Pallete*
 
   - I used a colour pallete of white and green which continues throughout the whole website.
+
+  ![Pallete](assets/readme-images/colour-pallete.png)
  
 # Technologies
 
-1.HTML - To create basic website.
-2.CSS - To style page and give a nice user experience.
-3.Balsamiq - To create wireframe.
+1 HTML - To create basic website.
+2 CSS - To style page and give a nice user experience.
+3 Balsamiq - To create wireframe.
 
 
 # Features
