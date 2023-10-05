@@ -155,7 +155,7 @@ td {
     padding: 8px;
 }
 
-/*Image from Pexels.com*/
+
 img {
     margin-left: auto;
     margin-right: auto;
@@ -163,6 +163,8 @@ img {
     max-width: 250px;
     max-height: 250px;
 }
+
+/*Services Section*/
 
 #services {
     background-color: rgb(5, 33, 7);
@@ -256,7 +258,6 @@ img {
 }
 
 
-
 #checkbox {
     padding: 5px;
     text-align: center;
@@ -264,7 +265,6 @@ img {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 #join {
@@ -373,9 +373,8 @@ footer p{
         justify-content: space-evenly;
     }
 
-    }
-
-#services-header {
+    #services-header {
 
     padding:100px;
+    }
 }
