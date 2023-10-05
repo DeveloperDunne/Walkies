@@ -5,23 +5,38 @@ Walkies is a dog walking website that also offers other servcies such as a pop i
 
 Walkies is aimed at people with dogs in Gweedore, a beautiful Donegal county surrounded by beaches and amazing outdoor walking environments and will be useful for people who are unable to take their pets on daily walks themselves.
 
-![Responsiveness](assets/readme-images/responsive.png)
+ The live link can be found here [Walkies](https://developerdunne.github.io/Walkies)
+
+![Responsiveness](assets/readme-images/responsive-check.png)
+
+  ## *Pallete*
+
+  - I used a colour pallete of white and green which continues throughout the whole website.
  
+# Technologies
+
+1.HTML - To create basic website.
+2.CSS - To style page and give a nice user experience.
+3.Balsamiq - To create wireframe.
+
+
 # Features
 
 ### *Navigation*
 
 - At the top of the page you can see the webistes name 'Walkies' and a navigation bar, this clearly tells the user the name of the website and links to other parts of the page.
-
 - When clicked on the 'About Us', 'Services' and 'Sign Up' links each will take you to these different sections of the page.
+- The Navigation bar is fixed and will follow down the page so that it is always available.
+- When used on mobiles the navigation bar condenses into a burger icon.
 
+ ![Navigation](assets/readme-images/navbar.png)
 
-### *The Header*
+### *The Home Page*
 
-- The Header shows a large picture of a dog with the website name and the navigation bar which takes you to where you would like to go on the page. 
-- It is designed in contrasting colours which will be a feature throughout the page.
+- The home page shows a large picture of a dog with the website name and the navigation bar which takes you to where you would like to go on the page. 
+- It is designed in contrasting colours which is a feature throughout the page.
 
-![Header](assets/readme-images/landing-page.png)
+![Header](assets/readme-images/home-page.png)
 
 ### *About Us*
 
@@ -33,6 +48,7 @@ Walkies is aimed at people with dogs in Gweedore, a beautiful Donegal county sur
 
 - This section breaks down what services are available with a more detailed explaination. 
 - It continues to be styled with the white and green contrast to make the information stand out.
+- There are 3 tiles, once hovered over each will display more information underneath on that service.
 
 ![Our Services](assets/readme-images/services.png)
 
@@ -44,7 +60,7 @@ Walkies is aimed at people with dogs in Gweedore, a beautiful Donegal county sur
 
 - The sign up section is valuable as it gives the user the opportunity to show that they are interested in the services.
 
-![Sign Up](assets/readme-images/signup.png)
+![Sign Up](assets/readme-images/sign-up.png)
 
 ### *Contact*
 
@@ -74,7 +90,7 @@ Walkies is aimed at people with dogs in Gweedore, a beautiful Donegal county sur
 
 ### *Unsolved bugs*
 
-- I would have liked to change the checkboxes when ticked from blue to green to make the website color pallete however could not find how to solve this.
+- The header when testing responsiveness sometimes overlays to the right, I would hvae liked to resolve this however ran out of time.
 
 # Validator Testing
 
@@ -82,13 +98,13 @@ Walkies is aimed at people with dogs in Gweedore, a beautiful Donegal county sur
 
 - No errors were displayed when putting the code through the official W3C Validator.
 
-![HTML Check](assets/readme-images/html-validator.png)
+![HTML Check](assets/readme-images/html-check.png)
 
 ### *CSS*
 
 - No errors were displayed when putting the code through the official (Jigsaw) Validator.
 
-![CSS Check](assets/readme-images/css-validator.png)
+![CSS Check](assets/readme-images/css-check.png)
 
 ### *Accessibility*
 
@@ -106,21 +122,16 @@ Walkies is aimed at people with dogs in Gweedore, a beautiful Donegal county sur
 
   - Once the Master Branch has been selected, the page provided the link to the website.
 
-  - The live link can be found here [Walkies](https://developerdunne.github.io/Walkies)
+  - The live link can again be found here [Walkies](https://developerdunne.github.io/Walkies)
 
   # Credits
 
-  ### *Wireframes*
-  - Balsamiq was used to create wireframes and design website before building.
-
-![Desktop design](assets/readme-images/wireframes1.png)
-![Phone design](assets/readme-images/wireframes2.png)
 
 ### *Content*
 
-  - Some support with code was taken from W3 Schools for the layout of the form.
+  - Some support with code was taken from W3 Schools for the layout of the form and to create the interactive services page.
 
-  - Some support with layout was taken from the Love Ruuning Project.
+  - Some support with covertext on home page was taken from the Love Running Project.
 
   - Issues with Flexbox properties were solved using CSS-Tricks.
 
@@ -135,3 +146,8 @@ Walkies is aimed at people with dogs in Gweedore, a beautiful Donegal county sur
   - The fonts were taken from [Fonts.google.com](https://fonts.google.com/)
 
   - The image of what the website looks on different devices was taken from [Am I Responsive?](https://ui.dev/amiresponsive) 
+
+# Acknowledgements
+
+- Ideas were taken from the Code Institute's Coffee House and Love Running projects.
+- My mentor, Medale Oluwafemi for his guidance and support.
