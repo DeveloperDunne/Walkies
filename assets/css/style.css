@@ -98,6 +98,7 @@ main {
 
 /*General body styles*/
 body {
+    margin:auto 0;
     min-height: 100vh;
     font-family: 'Mooli', 'sans-serif';
     font-size: 0.9rem;
@@ -336,13 +337,11 @@ footer p{
     #nav-bar {
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
     }
 
     #nav-bar > li {
-        padding-left: 1rem;
+        padding: 50px;
         display: flex;
-        justify-content: space-evenly;
     }
 
     .nav-toggle-label {
