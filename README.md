@@ -94,6 +94,8 @@ Walkies is aimed at people with dogs in Gweedore, a beautiful Donegal county sur
 
 - The header when testing responsiveness sometimes overlays to the right, I would hvae liked to resolve this however ran out of time.
 
+- During the process of completing my project I transferred from Codeanywhere to VS Code. As this was new to me by mistake I created another profile and this is why it looks as though my latter commits were documented by another contributer, even though it was still me.
+
 # Validator Testing
 
 ### *HTML*
