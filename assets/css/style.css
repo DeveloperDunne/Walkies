@@ -98,7 +98,7 @@ main {
 
 /*General body styles*/
 body {
-    margin:auto 0;
+    margin: auto 0;
     min-height: 100vh;
     font-family: 'Mooli', 'sans-serif';
     font-size: 0.9rem;
@@ -349,7 +349,7 @@ footer p{
     }
 
     #about {
-        padding-top:130px;
+        padding-top:230px;
     }
    
     .text-input {
@@ -357,7 +357,7 @@ footer p{
     }
 
     #services {
-        padding-top: 80px;
+        padding-top: 120px;
         padding-bottom: 1px
     }
 
@@ -374,6 +374,10 @@ footer p{
 
     #services-header {
 
-    padding:100px;
+    padding:150px;
+    }
+
+    #signup {
+        padding-top: 225px;
     }
 }
